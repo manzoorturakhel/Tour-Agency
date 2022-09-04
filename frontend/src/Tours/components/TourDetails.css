@@ -1,0 +1,41 @@
+.tour_details {
+  max-width: 1000px;
+  max-height: 100%;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 10px;
+  color: rgb(165, 162, 162);
+  background-color: rgb(53, 51, 51);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tour_details img {
+  max-width: 995px;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.button__center {
+  margin: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button__center button {
+  width: 100%;
+  border-radius: 5px;
+  margin: 5px;
+  transition: all ease-in 0.3s;
+}
+.button__center button:hover {
+  background-color: #dfdd0e;
+  padding: 15px 30px;
+  border-radius: 7px;
+  color: black;
+  text-align: center;
+}

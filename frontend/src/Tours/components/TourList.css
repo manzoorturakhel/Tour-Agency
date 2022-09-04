@@ -1,0 +1,82 @@
+.main__page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tour__list {
+  flex: 4;
+  max-width: 1000px;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 10px;
+}
+
+.tour__create__form {
+  margin-right: 10px;
+  flex: 2;
+  max-width: 420px;
+  height: 450px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 2px rgba(255, 255, 255, 0.7),
+    -1px -2px 2px rgba(255, 255, 255, 0.7);
+}
+.table {
+  width: 100%;
+  height: 430px;
+}
+label {
+  font-size: 20px;
+  color: white;
+  margin-left: 5px;
+}
+input {
+  width: 95%;
+  height: 20px;
+}
+input:focus {
+  background-color: gold;
+}
+caption {
+  color: white;
+  font-weight: bold;
+}
+.add__tour__row {
+  text-align: center;
+}
+.add__tour__btn {
+  width: 65px;
+  height: 30px;
+  margin-top: 5px;
+  background-color: transparent;
+  color: beige;
+  border: 1px solid white;
+  text-align: center;
+  border-radius: 10px;
+  transition: all ease-in-out 0.3s;
+  margin-left: 10px;
+}
+.add__tour__btn:hover {
+  color: black;
+
+  background-color: gold;
+}
+.add__tour__btn:disabled {
+  cursor: no-drop;
+}
+.add__tour__btn:disabled:hover {
+  background-color: grey;
+}
+@media only screen and (max-width: 1200px) {
+  .main__page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .tour__create__form {
+    min-width: 420px;
+    align-self: center;
+  }
+}

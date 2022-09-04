@@ -1,0 +1,10 @@
+.status {
+  height: 100px;
+  background-color: gold;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
